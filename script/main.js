@@ -125,22 +125,14 @@ const scroll = ScrollReveal({
 scroll.reveal(
     `#home .title, 
     #home .content,
-    #home .button,
-    
-    #about .content,
+
     #about .about_image,
 
-    #service .card,
+    #service .wrapper,
 
-    #vantagens .card,
+    #vantagens .container,
 
-    #portifolio .carousel,
-
-    #depoimentos .wrapper,
-
-    #info .container,
-
-    #contact .form_all
+    #portifolio .carousel
     `,
     { interval: 80 }
 )
