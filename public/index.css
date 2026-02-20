@@ -186,7 +186,7 @@ nav li:nth-child(1) {
     content: "";
     position: absolute;
     inset: 0;
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(0, 0, 0, 0.75);
     z-index: 0;
 }
 
@@ -679,7 +679,7 @@ footer span {
 @media (max-width: 767px) {
 
     .button_wpp {
-        left: 85%;
+        left: 82%;
     }
 
     #header {
@@ -687,7 +687,7 @@ footer span {
     }
 
     #header img {
-        width: 11rem;
+        width: 10rem;
     }
 
     .menu-toggle {
@@ -748,7 +748,7 @@ footer span {
     }
 
     #header nav a {
-        font-size: 20px;
+        font-size: 15px;
     }
 
     .title_section {
@@ -769,6 +769,7 @@ footer span {
 
     #home {
         height: 600px;
+        padding-top: 3rem;
     }
 
     #home .title {
@@ -779,6 +780,7 @@ footer span {
 
     #home .content {
         width: 90%;
+        font-size: 17px;
     }
 
     #about {
