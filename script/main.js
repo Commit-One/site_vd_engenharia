@@ -132,7 +132,7 @@ scroll.reveal(
 
     #vantagens .container,
 
-    #portifolio .carousel
+    #galeria .carousel
     `,
     { interval: 80 }
 )
@@ -153,6 +153,8 @@ nav.addEventListener('click', () => {
 });
 //
 document.getElementById("ano").textContent = new Date().getFullYear();
+
+// 
 
 window.addEventListener('scroll', function () {
     changeHeaderScroll()
