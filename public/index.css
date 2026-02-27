@@ -706,36 +706,11 @@ footer span {
     padding-bottom: 2rem;
   }
 
-  #galeria .wrapper {
-    flex-direction: column;
-  }
-
-  #galeria .wrapper div {
-    flex: none;
-    width: 100%;
-    height: 400px;
-    opacity: 1 !important;
-    transform: none !important;
-  }
-
-  #galeria .wrapper:hover div {
-    flex: none;
-  }
-
-  #galeria .wrapper div:hover {
-    flex: none;
-    transform: none;
-  }
-
-  #galeria .wrapper div img {
-    object-fit: cover !important;
-  }
-
   #depoimentos {
-    height: 500px;
+    height: 540px;
   }
 
-  #depoimentos .carousel {
+  #depoimentos .splide-depoimentos {
     margin-top: -6rem;
   }
 
