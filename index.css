@@ -182,7 +182,7 @@ nav li:nth-child(1) {
   flex-direction: column;
   justify-content: center;
   gap: 1rem;
-  background-image: url("../assets/home.jpg");
+  background-image: url("assets/home.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
