@@ -5,7 +5,7 @@ document.getElementById("leadForm").addEventListener("submit", function (e) {
   const email = document.getElementById("email").value;
   const mensagem = document.getElementById("mensagem").value;
 
-  const destinatario = "martins.cjhon@gmail.com";
+  const destinatario = "vdengenhariarj@gmail.com";
   const assunto = encodeURIComponent("Novo contato pelo site");
   const corpo = encodeURIComponent(
     `Nome: ${nome}
